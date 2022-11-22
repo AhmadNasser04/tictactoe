@@ -1,0 +1,11 @@
+.board__container {
+  display: grid;
+  grid-template-columns: repeat(3, 9rem);
+  place-items: center;
+}
+
+@media (max-width: 600px) {
+  .board__container {
+    grid-template-columns: repeat(3, 7rem);
+  }
+}

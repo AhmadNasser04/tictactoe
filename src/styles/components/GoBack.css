@@ -1,0 +1,18 @@
+.gobackbtn__container {
+  color: #fec928;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+.gobackbtn__link {
+  color: #fec928;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.pick__container {
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.pick__title h1 {
+  text-align: center;
+  color: #fec928;
+  margin: 0 0 20px 0;
+  font-size: 80px;
+}
+.pick__btns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pick__btns button {
+  font-size: 175px;
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .pick__title h1 {
+    font-size: 60px;
+  }
+}

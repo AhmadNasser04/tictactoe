@@ -1,0 +1,25 @@
+.footer__container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #fec928;
+  margin: 0px 2rem;
+}
+.footer__portfolio {
+  margin-top: 15px;
+  font-size: 32px;
+  color: #fec928;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.footer__portfolio:hover {
+  color: #ff4c4b;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #fec928;
+}
+.footer__description {
+  font-size: 15px;
+  color: #fec928;
+  margin: 3px 0px 20px 0px;
+}

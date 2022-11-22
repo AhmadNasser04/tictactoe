@@ -1,0 +1,30 @@
+.menubtn__link {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+.menubtn__btn {
+  font-size: 32px;
+  margin-bottom: 20px;
+  padding: 25px 70px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  background-color: #fec928;
+  color: #ff4c4b;
+  transition: 0.4s;
+}
+.menubtn__btn:hover {
+  background-color: rgba(254, 201, 40, 0.3);
+  background-clip: padding-box;
+  color: #fec928;
+}
+.menubtn__btn:active {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  transform: translateY(-10px);
+}
