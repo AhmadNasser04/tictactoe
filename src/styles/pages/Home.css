@@ -1,5 +1,5 @@
 .home__container {
-  height: 100vh;
+  height: 89vh;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -8,7 +8,8 @@
   text-align: center;
   color: #fec928;
   margin: 0 0 20px 0;
-  font-size: 150px;
+  font-size: 80px;
+  user-select: none;
 }
 .home__btnscontainer {
   display: flex;
@@ -19,15 +20,10 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 70%;
+  width: 90%;
 }
 .home__dot {
   color: #ff4c4b;
   padding: 0 5px;
 }
 
-@media (max-width: 600px) {
-  .home__title {
-    font-size: 100px;
-  }
-}

@@ -1,12 +1,11 @@
-import { Link } from "react-router-dom";
 import "../styles/components/Footer.css";
 
 function Footer() {
   return (
     <div className="footer__container">
-      <Link to="#" className="footer__portfolio">
-        ahmadnasser.dev
-      </Link>
+      <a href="ahmadnasser.net" className="footer__portfolio">
+        ahmadnasser.net
+      </a>
       <p className="footer__description">Play tictactoe</p>
     </div>
   );

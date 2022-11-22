@@ -9,13 +9,12 @@ function Home() {
         <div className="home__menu">
           <div className="home__title">
             <h1>
-              X<span className="home__dot"> </span>O
+              TicTacToe
             </h1>
           </div>
           <div className="home__btnscontainer">
             <div className="home__btns">
               <MenuButton text="Local Mulitplayer" link="/pick/local" />
-              <MenuButton text="Online Mulitplayer" link="/online" />
               <MenuButton text="Bot" link="/pick/bot" />
             </div>
           </div>
